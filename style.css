@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#menu {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+#menu ul {
+    list-style: none; /* Remove o marcador de lista */
+    text-transform: uppercase; /* Deixa os elementos do menu em maiúsculo */
+    position: absolute; /* Define a posição absoluta em relação ao site */
+    top: 0; /* Coloca o menu no topo da página */
+    padding: 0; /* Remove o padding padrão */
+}
+
+#menu li {
+    display: inline-block; /* Exibe os itens da lista em linha */
+    background-color: #dddddd; /* Cor de fundo dos itens do menu */
+    padding: 10px; /* Espaçamento interno do elemento */
+    margin: 4px; /* Margens dos elementos */
+}
+
+#menu li:hover {
+    background-color: #ffffff; /* Altera a cor de fundo ao passar o mouse */
+}
+
+#menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+img {
+    display: block; /* Garante que a imagem seja um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+#body{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.copyright{
+    color: red;
+}
